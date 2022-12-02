@@ -1,3 +1,7 @@
 # Path Searching Algorithm and Visualization
-Implementation of A* Searching Algorithm to find the optimal solution.
-Using QtApplication to visualize A* Searching Algorithm.
+
+- Implemented A* path searching algorithm in C++ with the help of Qt Library to build GUI.
+- Visualized both potential and shortest paths in a customized maze.
+- Allowed users to resize the window and to manipulate with different starting positions, ending positions, obstacles quantities, and maze sizes.
+
+![](demo/demo.gif)

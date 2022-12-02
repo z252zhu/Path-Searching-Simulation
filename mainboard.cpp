@@ -67,7 +67,9 @@ void MainBoard::printResult(bool find, TreeNode* lastTN) {
         while (!res.empty()) {
             std::pair<int, int> p = res.top();
             res.pop();
-            boardContent[p.first][p.second] = PATH;
+            if (boardContent[p.first][p.second] != STARTPOS &&
+                boardContent[p.first][p.second] != ENDPOS)
+                boardContent[p.first][p.second] = PATH;
             printf(" -> (%d,%d)", p.first, p.second);
         }
         std::cout << std::endl;
@@ -78,8 +80,8 @@ void MainBoard::printResult(bool find, TreeNode* lastTN) {
 
 void MainBoard::AStarSearch() {
     // maximum number of rows and cols
-    int ROWS = boardWidth;
-    int COLS = boardHeight;
+    int const ROWS = boardWidth;
+    int const COLS = boardHeight;
 
     // set up starting and ending positions
     Point begPos = {this->startPos.first, this->startPos.second};
