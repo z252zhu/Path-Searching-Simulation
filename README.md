@@ -1,4 +1,4 @@
-# Path Searching Algorithm and Visualization
+# Path Searching Simulation
 
 ## Features:
 - Simluated GPS path searching process in real time. The algorithm can generate and highlight the shortest path in a graph.
