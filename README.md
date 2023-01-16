@@ -2,7 +2,7 @@
 
 ## Features:
 - Simluated GPS path searching process in real time. The algorithm can generate and highlight the shortest path in a graph.
-- Utilized different data structures to optimize efficiency of the projectand to reduced extra memeory accesses.
+- Utilized different data structures to optimize efficiency of the project and to reduced extra memeory accesses.
 - Implemented GUI for a better user experience.
 
 ## Project Details:
